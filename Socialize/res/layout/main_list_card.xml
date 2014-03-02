@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_rel"
+    style="@style/nowCardStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Magic Draft"
+        android:textSize="25sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/list_title"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:text=""
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:text="  Date : 02/14/14"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="6dp"
+        android:text="  Time: 2:45 PM"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list_title"
+        android:layout_below="@+id/price"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="25dp"
+        android:text="  Creator: Austin Browne"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/more_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/price"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginTop="5dp"
+        android:text="4 people attending"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/list_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#d3d3d3" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/view1"
+        android:layout_below="@+id/checkBox3"
+        android:background="#d3d3d3" />
+
+</RelativeLayout>
